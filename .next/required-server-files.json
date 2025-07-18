@@ -46,7 +46,7 @@
         256,
         384
       ],
-      "path": "/wearwise-website/_next/image",
+      "path": "/wearwise-website/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -73,7 +73,7 @@
     },
     "basePath": "/wearwise-website",
     "sassOptions": {},
-    "trailingSlash": false,
+    "trailingSlash": true,
     "i18n": null,
     "productionBrowserSourceMaps": false,
     "excludeDefaultMomentLocales": true,

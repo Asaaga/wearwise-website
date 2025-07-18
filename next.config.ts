@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  output: "export", // Enables static HTML export
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for static export when using <Image>
   },
-  basePath: "/wearwise-website",
+  basePath: "/wearwise-website", // Must match your repo name
+  trailingSlash: true, // Optional: prevents broken links on GitHub Pages
 };
 
 export default nextConfig;
